@@ -9,8 +9,8 @@ TOKENS = {}
 VERIFIED = {}
 
 async def get_verify_shorted_link(link):
-    if SHORTLINK_URL == "api.shareus.io":
-        url = f'https://{SHORTLINK_URL}/easy_api'
+    if SHORTLINK_URL == "tnshort.net":
+        url = f'https://{SHORTLINK_URL}/Wardu'
         params = {
             "key": SHORTLINK_API,
             "link": link,
